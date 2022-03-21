@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/pegawai', 'PegawaiController@index');
+Route::get('/pegawai', 'App\Http\Controllers\PegawaiController@index');
