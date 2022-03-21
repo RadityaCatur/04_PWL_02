@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Pegawai;
+use App\Models\Pegawai;
 
 class PegawaiController extends Controller
 {
